@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 body{
-    background: #0f0c29;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #1C0B19;  /* fallback for old browsers */
     display: flex;
     flex-direction: column;
     align-items: center;
-  justify-content: center;
+    justify-content: center;
     font-family: "Roboto";
+    color: white;
 }
 header{
     text-align: center;
@@ -15,4 +14,47 @@ header{
 header img{
     border-radius: 50%;
     box-shadow: #5a5a5a 0px 2px;
+}
+nav{
+    width: 50%;
+    height: 40%;
+    border: 1px solid red;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    
+    text-transform: uppercase;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.skills{
+    width: 80%;
+    height: 100vh;
+    border: 1px solid red;
+}
+.projects{
+    border: 1px solid red;
+    width: 80%;
+    height: 100vh;
+}
+
+.contact{
+    border: 1px solid red;
+    width: 80%;
+    height: 100vh;
+}
+footer{
+    border: 1px solid red;
+    width: 80%;
+    height: 20%;
 }
